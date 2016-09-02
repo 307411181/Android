@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.minze.shoppingmall.shoppingmall.view.TitleBar
+            android:id="@+id/title_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpager_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:gravity="center|right"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tv_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="天王盖地虎, 天王盖地虎, 天王盖地虎, "
+                    android:textColor="@android:color/white"
+                    android:visibility="gone"/>
+
+                <LinearLayout
+                    android:id="@+id/ll_point_container"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    >
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_main_tiantiantuan"
+                style="@style/main_button_tab"
+                android:drawableTop="@mipmap/main_tiantiantuan"
+                android:text="天天团"
+                />
+
+            <Button
+                android:id="@+id/btn_main_tejia"
+                style="@style/main_button_tab"
+                android:drawableTop="@mipmap/main_jinritejia"
+                android:text="今日特价"
+                />
+
+            <Button
+                android:id="@+id/btn_main_coujiangjifen"
+                style="@style/main_button_tab"
+                android:drawableTop="@mipmap/main_jifenchoujiang"
+                android:text="抽奖积分"
+                />
+
+            <Button
+                android:id="@+id/btn_main_saoyisao"
+                style="@style/main_button_tab"
+                android:drawableTop="@mipmap/main_saoyisao"
+                android:text="扫一扫"
+                />
+        </LinearLayout>
+
+
+        <include
+            layout="@layout/main_item1"/>
+
+        <include
+            layout="@layout/main_item2"/>
+
+        <include
+            layout="@layout/main_item3"/>
+
+        <!--最底部头像登陆注册布局-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="20dp"
+                android:background="#2B2B2B"
+                />
+
+            <ImageView
+                android:id="@+id/iv_main_touxiang"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:background="@mipmap/main_touxiang"
+                android:padding="10dp"
+                />
+
+            <Button
+                android:id="@+id/btn_main_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:layout_toRightOf="@+id/iv_main_touxiang"
+                android:background="@null"
+                android:button="@null"
+                android:text="登陆"
+                android:textColor="#8EC43B"
+                android:textSize="15sp"/>
+
+            <Button
+                android:id="@+id/btn_main_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:layout_toRightOf="@+id/btn_main_login"
+                android:background="@null"
+                android:button="@null"
+                android:text="立即注册"
+                android:textColor="#2b2b2b"
+                android:textSize="10sp"
+
+                />
+
+            <ImageButton
+                android:id="@+id/ib_main_bag"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="25dp"
+                android:layout_marginRight="20dp"
+                android:background="@mipmap/main_shoppingcart"
+                android:padding="20dp"
+                />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
