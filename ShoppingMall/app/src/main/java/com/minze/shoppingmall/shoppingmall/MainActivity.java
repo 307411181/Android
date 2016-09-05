@@ -11,7 +11,9 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
+import com.minze.shoppingmall.shoppingmall.activity.DetailsActivity;
 import com.minze.shoppingmall.shoppingmall.activity.LoginActivity;
+import com.minze.shoppingmall.shoppingmall.activity.RegisterActivity;
 import com.minze.shoppingmall.shoppingmall.base.BaseActivity;
 import com.minze.shoppingmall.shoppingmall.util.TostUtrils;
 import com.minze.shoppingmall.shoppingmall.view.TitleBar;
@@ -22,6 +24,9 @@ import butterknife.ButterKnife;
 import butterknife.InjectView;
 import butterknife.OnClick;
 
+/**
+ * 主页面,包括一些数据额展示,以及登录注册跳转
+ */
 public class MainActivity extends BaseActivity {
 
     @InjectView(R.id.iv_main_item1_one)
@@ -101,7 +106,7 @@ public class MainActivity extends BaseActivity {
             }
         });
 
-//        bar.setLeftButtonImage(R.mipmap.main_find);
+        //        bar.setLeftButtonImage(R.mipmap.main_find);
 
     }
 
@@ -307,14 +312,17 @@ public class MainActivity extends BaseActivity {
                 break;
             case R.id.iv_main_touxiang:
                 TostUtrils.showToast("头像");
+                startAnActivity(DetailsActivity.class);
                 break;
             case R.id.btn_main_login:
-//                TostUtrils.showToast("跳转登陆");
+                //                TostUtrils.showToast("跳转登陆");
                 Intent loginIntent = new Intent(mContext, LoginActivity.class);
                 startActivity(loginIntent);
                 break;
             case R.id.btn_main_register:
                 TostUtrils.showToast("跳转注册");
+                Intent RegisterIntent = new Intent(mContext, RegisterActivity.class);
+                startActivity(RegisterIntent);
                 break;
             case R.id.ib_main_bag:
                 TostUtrils.showToast("点击了袋子");
@@ -322,6 +330,9 @@ public class MainActivity extends BaseActivity {
         }
     }
 
+    /**
+     * 生命周期方法,页面关闭,让循环广告页关闭
+     */
     @Override
     protected void onDestroy() {
         super.onDestroy();

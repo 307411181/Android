@@ -8,7 +8,7 @@ import com.minze.shoppingmall.shoppingmall.app.MyApplication;
 /**
  * @创建者 张京
  * @创建时间 2016/8/31 12:11
- * @描述 ${TODO}
+ * @描述 ${关于SharedPreferences的操作}
  */
 public class SpUtils {
 

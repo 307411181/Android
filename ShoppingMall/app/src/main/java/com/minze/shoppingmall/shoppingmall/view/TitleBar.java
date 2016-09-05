@@ -12,14 +12,14 @@ import com.minze.shoppingmall.shoppingmall.R;
 /**
  * @创建者 张京
  * @创建时间 2016/9/1 10:20
- * @描述 ${TODO}
+ * @描述 ${抽取的TitleBar自定义布局}
  */
 public class TitleBar extends RelativeLayout {
 
-    private ImageButton    leftButton;
-    private ImageButton    rightButton;
-    private TextView       titleText;
-    private RelativeLayout mRootView;
+    private ImageButton    leftButton;//左边的图片按钮
+    private ImageButton    rightButton;//右边按钮
+    private TextView       titleText;//中间TitleBar标题文字
+    private RelativeLayout mRootView;//最外层布局
 
     public TitleBar(Context context, AttributeSet attrs) {
         super(context, attrs);

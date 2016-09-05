@@ -6,6 +6,7 @@
               android:orientation="vertical">
 
     <ImageView
+        android:id="@+id/iv_login_head"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_gravity="center_horizontal"
@@ -24,11 +25,13 @@
         >
 
         <ImageView
-            android:layout_width="20dp"
+            android:layout_width="15dp"
             android:layout_height="20dp"
             android:layout_margin="10dp"
             android:background="@mipmap/login_username_icon"/>
+
         <EditText
+            android:id="@+id/et_login_username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@null"
@@ -49,15 +52,17 @@
         >
 
         <ImageView
-            android:layout_width="20dp"
+            android:layout_width="15dp"
             android:layout_height="20dp"
             android:layout_margin="10dp"
-            android:background="@mipmap/login_username_icon"/>
+            android:background="@mipmap/loging_password_icon"/>
+
         <EditText
+            android:id="@+id/et_login_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@null"
-            android:hint="请输入用户名"
+            android:hint="请输入密码"
             android:padding="10dp"
             android:textColorHint="@android:color/white"/>
     </LinearLayout>
@@ -70,6 +75,7 @@
         android:layout_marginRight="30dp">
 
         <Button
+            android:id="@+id/btn_login_register"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@null"
@@ -78,6 +84,7 @@
             android:textSize="15sp"/>
 
         <Button
+            android:id="@+id/btn_login_forget_password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
@@ -89,6 +96,7 @@
 
 
     <Button
+        android:id="@+id/btn_login_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
@@ -132,32 +140,36 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         >
 
         <ImageButton
-            android:layout_centerInParent="true"
+            android:id="@+id/btn_login_weixin_login"
             android:layout_width="30dp"
             android:layout_height="30dp"
+            android:layout_centerInParent="true"
             android:layout_marginLeft="30dp"
             android:background="@mipmap/login_weixin"/>
 
         <ImageButton
-            android:layout_marginLeft="70dp"
-            android:layout_gravity="center"
+            android:id="@+id/btn_login_weibo_login"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:background="@mipmap/login_weixin"/>
-        <ImageButton
-            android:layout_marginLeft="70dp"
             android:layout_gravity="center"
+            android:layout_marginLeft="70dp"
+            android:background="@mipmap/login_weibo_icon"/>
+
+        <ImageButton
+            android:id="@+id/btn_login_qq_login"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"
             android:layout_marginRight="70dp"
-            android:background="@mipmap/login_weixin"/>
+            android:background="@mipmap/login_qq_icon"/>
 
 
     </RelativeLayout>

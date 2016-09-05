@@ -23,7 +23,7 @@ import butterknife.OnClick;
 /**
  * @创建者 张京
  * @创建时间 2016/8/31 20:39
- * @描述 ${TODO}
+ * @描述 ${新手引导页,使用viewPger实现4个滑动的页面,最后一个页面中点击进入按钮进入主页,新手引导页只显示一次}
  */
 public class GuideActivity extends Activity {
 

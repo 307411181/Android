@@ -2,6 +2,7 @@ package com.minze.shoppingmall.shoppingmall.base;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 
@@ -43,7 +44,7 @@ public abstract class BaseActivity extends Activity {
         /**
          * 设置为竖屏
          */
-        if(getRequestedOrientation()!=ActivityInfo.SCREEN_ORIENTATION_PORTRAIT){
+        if (getRequestedOrientation() != ActivityInfo.SCREEN_ORIENTATION_PORTRAIT) {
             setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         }
 
@@ -54,13 +55,25 @@ public abstract class BaseActivity extends Activity {
      * 设置所需要的布局文件即可
      */
     public abstract void setContentView(Bundle bundle);
+
     /**
      * 初始化数据,设置一些图片或者网络请求逻辑
      */
     public abstract void initData();
+
     /**
      * 设置控件要执行的方法,如点击,设置文字,设置内容   还有适配器等
      */
     public abstract void settingViewOrAdapter();
+
+
+    /**
+     * 父类提供的方法,用于快速跳转新的Activity,子类只需要传入目标Activity.class即可
+     * @param clazz
+     */
+    public void startAnActivity(Class clazz) {
+        Intent intent = new Intent(mContext, clazz);
+        startActivity(intent);
+    }
 
 }
