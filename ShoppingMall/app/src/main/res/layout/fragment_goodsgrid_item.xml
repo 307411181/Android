@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--商品列表 Gridview item布局-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageView
+
+        android:id="@+id/fragment_goodsgrid_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/fragment_goodsgrid_goodsname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:text="AAAAAA"/>
+
+    <TextView
+        android:id="@+id/fragment_goodsgrid_goodsprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:text="$25"/>
+
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--商品列表布局-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_goods_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.minze.shoppingmall.shoppingmall.view.TitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <android.support.design.widget.TabLayout
+        android:layout_below="@+id/title_bar"
+        android:id="@+id/activity_goods_list_tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabGravity="fill"
+        app:tabMode="fixed"/>
+
+    <!--最底部头像登陆注册布局-->
+    <RelativeLayout
+        android:id="@+id/relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="20dp"
+            android:background="#2B2B2B"
+            />
+
+        <Button
+            android:id="@+id/btn_main_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_toRightOf="@+id/iv_main_touxiang"
+            android:background="@null"
+            android:button="@null"
+            android:text="登陆"
+            android:textColor="#8EC43B"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/btn_main_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_toRightOf="@+id/btn_main_login"
+            android:background="@null"
+            android:button="@null"
+            android:text="立即注册"
+            android:textColor="#2b2b2b"
+            android:textSize="10sp"
+
+            />
+
+        <ImageButton
+            android:id="@+id/ib_main_bag"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="25dp"
+            android:layout_marginRight="20dp"
+            android:background="@mipmap/main_shoppingcart"
+            android:padding="20dp"
+            />
+
+        <ImageView
+            android:id="@+id/iv_main_touxiang"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@mipmap/main_touxiang"
+            android:padding="10dp"/>
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/activity_goods_list_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/relativelayout"
+        android:layout_below="@+id/activity_goods_list_tablayout"
+        />
+</RelativeLayout>

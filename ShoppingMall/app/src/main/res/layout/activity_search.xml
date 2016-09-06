@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--搜索页面布局-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <com.minze.shoppingmall.shoppingmall.view.TitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <com.minze.shoppingmall.shoppingmall.view.ClearEditText
+        android:hint="@string/serch_edittext"
+        android:drawableLeft="@mipmap/search_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

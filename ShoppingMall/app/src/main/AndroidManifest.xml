@@ -48,6 +48,8 @@
         <activity android:name=".activity.RegisterActivity"/><!--注册页面Activity-->
         <activity android:name=".activity.DetailsActivity"/><!--订单详情页Activity-->
         <activity android:name=".activity.ForgetPasswordActivity"/><!--忘记密码页Activity-->
+        <activity android:name=".activity.GoodsListActivity"/><!--商品列表-->
+        <activity android:name=".activity.SearchActivity"/><!--搜索页面-->
         <!--所有的activity  end-->
 
     </application>

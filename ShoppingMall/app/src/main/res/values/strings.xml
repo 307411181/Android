@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ShoppingMall</string>
+    <string name="goodslist">商品列表</string>
+    <string name="serch_edittext">输入您期望的内容</string>
 </resources>
