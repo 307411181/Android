@@ -50,6 +50,7 @@
         <activity android:name=".activity.ForgetPasswordActivity"/><!--忘记密码页Activity-->
         <activity android:name=".activity.GoodsListActivity"/><!--商品列表-->
         <activity android:name=".activity.SearchActivity"/><!--搜索页面-->
+        <activity android:name=".activity.ShoppingCarActivity"/><!--购物车页面-->
         <!--所有的activity  end-->
 
     </application>

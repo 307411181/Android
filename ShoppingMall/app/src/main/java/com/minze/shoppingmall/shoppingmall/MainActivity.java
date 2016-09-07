@@ -12,8 +12,11 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import com.minze.shoppingmall.shoppingmall.activity.DetailsActivity;
+import com.minze.shoppingmall.shoppingmall.activity.GoodsListActivity;
 import com.minze.shoppingmall.shoppingmall.activity.LoginActivity;
 import com.minze.shoppingmall.shoppingmall.activity.RegisterActivity;
+import com.minze.shoppingmall.shoppingmall.activity.SearchActivity;
+import com.minze.shoppingmall.shoppingmall.activity.ShoppingCarActivity;
 import com.minze.shoppingmall.shoppingmall.base.BaseActivity;
 import com.minze.shoppingmall.shoppingmall.util.TostUtrils;
 import com.minze.shoppingmall.shoppingmall.view.TitleBar;
@@ -97,12 +100,14 @@ public class MainActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 TostUtrils.showToast("我在主页面点击了Menu");
+
             }
         });
         bar.setRightButtonOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 TostUtrils.showToast("主页面点击了Find");
+                startAnActivity(SearchActivity.class);
             }
         });
 
@@ -267,6 +272,7 @@ public class MainActivity extends BaseActivity {
         switch (view.getId()) {
             case R.id.btn_main_tiantiantuan:
                 TostUtrils.showToast("天天团");
+                startAnActivity(GoodsListActivity.class);
                 break;
             case R.id.btn_main_tejia:
                 TostUtrils.showToast("特价");
@@ -326,6 +332,7 @@ public class MainActivity extends BaseActivity {
                 break;
             case R.id.ib_main_bag:
                 TostUtrils.showToast("点击了袋子");
+                startAnActivity(ShoppingCarActivity.class);
                 break;
         }
     }

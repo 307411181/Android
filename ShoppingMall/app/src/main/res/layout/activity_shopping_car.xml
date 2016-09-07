@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <com.minze.shoppingmall.shoppingmall.view.TitleBar
+        android:id="@+id/shop_car_title_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <RadioGroup
+        android:id="@+id/rg_shopcar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:background="@null"
+            android:id="@+id/rb_shopcar_new"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="NEW"
+            android:textColor="@drawable/selector_shop_car_text_color"
+            android:textSize="20sp"/>
+
+        <RadioButton
+            android:background="@null"
+            android:id="@+id/rb_shopcar_before"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="BEFORE"
+            android:textColor="@drawable/selector_shop_car_text_color"
+            android:textSize="20sp"/>
+    </RadioGroup>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        >
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/view_tab1"
+            android:background="@android:color/darker_gray"
+            />
+
+        <View
+            android:id="@+id/view_tab1"
+            android:layout_width="100dp"
+            android:layout_height="3dp"
+            android:layout_marginLeft="50dp"
+            android:background="@android:color/black"
+            />
+
+        <View
+            android:id="@+id/view_tab2"
+            android:layout_width="100dp"
+            android:layout_height="3dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"
+            android:background="@android:color/black"
+            android:visibility="invisible"
+            />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_shopping_car"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></FrameLayout>
+</LinearLayout>

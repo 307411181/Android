@@ -80,7 +80,7 @@ public class TitleBar extends RelativeLayout {
      * 设置标题栏右侧按钮图标方法
      */
     public void setRightButtonImage(int image){
-        rightButton.setImageResource(image);
+        rightButton.setBackgroundResource(image);
     }
 
 }

@@ -1,14 +1,17 @@
 package com.minze.shoppingmall.shoppingmall.fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.GridView;
 
 import com.minze.shoppingmall.shoppingmall.R;
+import com.minze.shoppingmall.shoppingmall.activity.DetailsActivity;
 import com.minze.shoppingmall.shoppingmall.adapter.GoodGridFragmentAdapter;
 
 /**
@@ -33,5 +36,14 @@ public class GoodsGridFragment extends Fragment {
         mGridView = (GridView) rootView.findViewById(R.id.fragment_goodsgrid_gridview);
         mGoodGridFragmentAdapter = new GoodGridFragmentAdapter(getActivity());
         mGridView.setAdapter(mGoodGridFragmentAdapter);
+
+        //点击每一项,暂时先跳转商品详情页
+        mGridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent intent = new Intent(getActivity(), DetailsActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

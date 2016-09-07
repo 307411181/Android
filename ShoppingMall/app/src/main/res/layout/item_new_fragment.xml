@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+
+        <ImageView
+            android:id="@+id/iv_item_newfragment"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/ic_launcher"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:layout_toRightOf="@+id/iv_item_newfragment"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我是标题"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我是内容"/>
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/rg_item_newfragment"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rb_item_newfragment"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+
+                android:background="@mipmap/shopping_car_normal"
+                android:button="@null"/>
+        </RadioGroup>
+    </RelativeLayout>
+</LinearLayout>

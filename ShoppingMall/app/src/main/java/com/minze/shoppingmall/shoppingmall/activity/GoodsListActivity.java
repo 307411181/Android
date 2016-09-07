@@ -22,12 +22,12 @@ import java.util.List;
  * 商品列表
  */
 public class GoodsListActivity extends BaseActivity {
-    private TabLayout mTabLayout;
-    private ViewPager mViewPager;
+    private TabLayout            mTabLayout;
+    private ViewPager            mViewPager;
     private FragmentPagerAdapter mFragmentPagerAdapter;
 
     private List<Fragment> mFragmentList;
-    private List<String > mStringList;
+    private List<String>   mStringList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,15 +64,16 @@ public class GoodsListActivity extends BaseActivity {
     private void initView() {
         mTabLayout = (TabLayout) findViewById(R.id.activity_goods_list_tablayout);
         mViewPager = (ViewPager) findViewById(R.id.activity_goods_list_viewpager);
-        mFragmentPagerAdapter=new MyFragmentPagerAdapter(getSupportFragmentManager(),mFragmentList,mStringList);
+        mFragmentPagerAdapter = new MyFragmentPagerAdapter(getSupportFragmentManager(), mFragmentList, mStringList);
         mViewPager.setAdapter(mFragmentPagerAdapter);
         mTabLayout.setupWithViewPager(mViewPager);
     }
-    private void initListData(){
-        mFragmentList=new ArrayList<Fragment>();
+
+    private void initListData() {
+        mFragmentList = new ArrayList<Fragment>();
         mFragmentList.add(new GoodsListFragment());
         mFragmentList.add(new GoodsGridFragment());
-        mStringList=new ArrayList<String>();
+        mStringList = new ArrayList<String>();
         mStringList.add("List");
         mStringList.add("GRID");
     }
