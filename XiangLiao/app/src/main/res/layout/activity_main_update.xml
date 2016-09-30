@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/background"
+              android:orientation="vertical">
+
+    <!--<com.unihiltop.xiangliao.view.BottomTabPagerView-->
+    <!--android:id="@+id/bottomTabPagerView_main"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent" />-->
+
+    <FrameLayout
+        android:id="@+id/rl_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"></FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/rg_main"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_bohao"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:button="@android:color/transparent"
+            android:drawableTop="@drawable/tab_bohao_selector"
+            android:gravity="center"
+            android:padding="5dp"
+            />
+        <RadioButton
+            android:id="@+id/rb_tonghua"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:button="@android:color/transparent"
+            android:drawableTop="@drawable/tab_zuijintonghua_selector"
+            android:gravity="center"
+            android:padding="5dp"
+            />
+        <RadioButton
+            android:id="@+id/rb_tongxunlu"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:button="@android:color/transparent"
+            android:drawableTop="@drawable/tab_tongxunlu_selector"
+            android:gravity="center"
+            android:padding="5dp"
+            />
+        <RadioButton
+            android:id="@+id/rb_mine"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:button="@android:color/transparent"
+            android:drawableTop="@drawable/tab_wodexiangliao_selector"
+            android:gravity="center"
+            android:padding="5dp"
+            />
+
+
+    </RadioGroup>
+
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <TextView
+        android:id="@+id/textView_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="收货人："
+        android:textColor="@color/text_color_dark"
+        android:textSize="@dimen/textsize_fourteen"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18224468892"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/text_color_dark"
+        android:textSize="@dimen/textsize_fourteen"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView_zip_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="邮编："
+        android:layout_marginTop="10dp"
+        android:textColor="@color/text_color_dark"
+        android:textSize="@dimen/textsize_fourteen"
+        android:layout_below="@+id/textView_name"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="收货地址："
+        android:layout_marginTop="10dp"
+        android:textColor="@color/text_color_dark"
+        android:textSize="@dimen/textsize_fourteen"
+        android:layout_below="@+id/textView_zip_code"
+        android:gravity="center"/>
+
+</RelativeLayout>

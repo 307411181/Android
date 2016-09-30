@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/background"
+    tools:context="${relativePackage}.${activityClass}" >
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:id="@+id/linearLayout">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:text="主叫号码"
+        android:textColor="@color/md_grey_800_color_code"
+        android:textSize="@dimen/textsize_twenty" />
+    <TextView
+        android:id="@+id/textView_resulat_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+        android:text="18200129125"
+        android:textColor="@color/md_grey_800_color_code"
+        android:textSize="@dimen/textsize_twenty" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="被叫号码"
+        android:textColor="@color/md_grey_800_color_code"
+        android:textSize="@dimen/textsize_fifteen" />
+    <TextView
+        android:id="@+id/textView_resulat_called"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="18200129125"
+        android:textColor="@color/md_grey_800_color_code"
+        android:textSize="@dimen/textsize_fifteen" />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="拨打时间"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/md_grey_800_color_code"
+            android:textSize="@dimen/textsize_twenty"
+
+            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/textView_resulat_dialTime"
+        android:textColor="@color/md_grey_800_color_code"
+        android:textSize="@dimen/textsize_twenty"
+
+       />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="结束时间"
+            android:paddingLeft="12dp"
+            android:textColor="@color/md_grey_800_color_code"
+            android:textSize="@dimen/textsize_fifteen"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="123"
+         android:paddingLeft="12dp"
+            android:id="@+id/textView_resulat_hangUpTime"
+            android:textColor="@color/md_grey_800_color_code"
+            android:textSize="@dimen/textsize_fifteen"
+
+            />
+    </LinearLayout>
+</RelativeLayout>

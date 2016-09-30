@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/white">
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/imageView_return"
+            android:layout_centerVertical="true"
+            android:padding="11dp"
+            android:src="@drawable/ic_back"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="话单查询"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize_twenty_two"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/gray"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/md_grey_300_color_code" />
+    <LinearLayout
+        android:id="@+id/linearLayout_startTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout_logn"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/bg_common"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView_startTime"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/transparentwhite"
+            android:text="开始时间"
+            android:paddingLeft="10dp"
+           android:gravity="center_vertical"
+            android:textSize="16sp"
+            android:textColor="@color/md_grey_500_color_code"
+            android:textCursorDrawable="@null" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/md_grey_300_color_code" />
+
+
+            <TextView
+                android:id="@+id/textView_endTime"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_toLeftOf="@id/textView_line"
+                android:background="@color/transparentwhite"
+                android:text="结束时间"
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/md_grey_500_color_code"
+                />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/md_grey_300_color_code" />
+    <Button
+        android:id="@+id/button_search_talk"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_tile_blue_selector"
+        android:textColor="@color/md_white_color_code"
+        android:textSize="20sp"
+        android:text="快速查询"/>
+</LinearLayout>

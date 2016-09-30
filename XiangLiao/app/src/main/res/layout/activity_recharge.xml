@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/linearLayout_logn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/white" >
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/imageView_return"
+            android:layout_centerVertical="true"
+            android:padding="11dp"
+            android:src="@drawable/ic_back"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="快捷充值"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize_twenty_two"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/gray"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout_logn"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/bg_common"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/editText_recharge_phone"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/transparentwhite"
+            android:hint="手机号"
+            android:inputType="number"
+            android:imeOptions="actionDone"
+            android:paddingLeft="10dp"
+            android:textColor="@color/md_grey_800_color_code"
+            android:textColorHint="@color/md_grey_400_color_code"
+            android:textCursorDrawable="@null" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/md_grey_300_color_code" />
+
+        <RelativeLayout
+        android:id="@+id/relativeLayout_month"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+        <TextView
+            android:id="@+id/textView_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/textView_line"
+            android:background="@color/transparentwhite"
+            android:text="选择充值月份"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/md_grey_400_color_code"
+
+            />
+    </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/md_grey_300_color_code" />
+        <RelativeLayout
+            android:id="@+id/relativeLayout_money"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" >
+            <TextView
+                android:id="@+id/textView_recharge_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/textView_line"
+                android:background="@color/transparentwhite"
+                android:text="充值金额"
+                android:layout_centerVertical="true"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="18sp"
+                android:textColor="@color/md_grey_400_color_code"
+
+                />
+        </RelativeLayout>
+    </LinearLayout>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="5dp"
+    android:textColor="@color/md_grey_500_color_code"
+    android:text="充值方式"/>
+    <RelativeLayout
+        android:id="@+id/linearLayout_recharage_card"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/bg_common"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+       >
+
+        <TextView
+            android:id="@+id/textView_recharage_card"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/md_grey_800_color_code"
+            android:textSize="@dimen/textsize_eighteen"
+            android:text="充值卡"
+            android:layout_marginTop="20dp"
+            />
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:background="@drawable/ic_go"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_common"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/linearLayout_recharge_zhifubao"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:visibility="gone"
+            android:orientation="horizontal" >
+            <ImageView
+                android:id="@+id/imageView_recharge_zhifubao"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/ic_alipay"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:id="@+id/textView_recharge_zhifubao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="@color/md_grey_800_color_code"
+                android:textSize="@dimen/textsize_eighteen"
+                android:text="支付宝"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/imageView_recharge_zhifubao"/>
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:background="@drawable/ic_go"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:visibility="gone"
+            android:background="@color/md_grey_300_color_code" />
+        <RelativeLayout
+            android:id="@+id/linearLayout_recharge_unionPay"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:visibility="gone"
+            android:orientation="horizontal" >
+            <ImageView
+                android:id="@+id/imageView_recharge_unionPay"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/ic_unionpay"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:id="@+id/textView_recharge_unionPay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/md_grey_800_color_code"
+                android:textSize="@dimen/textsize_eighteen"
+                android:text="银联"
+                android:layout_toRightOf="@+id/imageView_recharge_unionPay"
+              />
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:background="@drawable/ic_go"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:visibility="gone"
+            android:background="@color/md_grey_300_color_code" />
+        <RelativeLayout
+            android:id="@+id/linearLayout_recharge_weChat"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:visibility="gone"
+            android:orientation="horizontal" >
+            <ImageView
+                android:id="@+id/imageView_recharge_weChat"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/ic_weichat"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:id="@+id/textView_recharge_weChat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/md_grey_800_color_code"
+                android:textSize="@dimen/textsize_eighteen"
+                android:text="微信"
+                android:layout_toRightOf="@+id/imageView_recharge_weChat" />
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/ic_go"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/linearLayout_recharge_one"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal" >
+            <ImageView
+                android:id="@+id/imageView_recharge_one"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:visibility="gone"
+                android:layout_centerVertical="true"
+                android:background="@drawable/ic_weichat"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:id="@+id/textView_recharge_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/md_grey_800_color_code"
+                android:textSize="@dimen/textsize_eighteen"
+                android:text="一键支付"
+                android:layout_toRightOf="@+id/imageView_recharge_one" />
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/ic_go"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

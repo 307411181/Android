@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/background"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/imageView_return"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:padding="11dp"
+            android:src="@drawable/ic_back"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="帮助与反馈"
+            android:textColor="@color/black"
+            android:textSize="22sp"/>
+
+        <Button
+            android:id="@+id/btn_hot_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+            android:background="@null"
+            android:text="客服热线"
+            android:textColor="@color/title"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/gray"/>
+    </RelativeLayout>
+
+    <!--下面四个按钮布局-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titlebar_help"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <RadioGroup
+            android:id="@+id/rg_my_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <RadioButton
+                android:id="@+id/rb_my_zhanghu"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_my_zhanghu"
+                android:button="@null"
+                android:padding="10dp"/>
+
+            <RadioButton
+                android:id="@+id/rb_my_tonghua"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_my_tonghua"
+                android:button="@null"
+                android:padding="10dp"/>
+
+            <RadioButton
+                android:id="@+id/rb_my_zifei"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_my_zifei"
+                android:button="@null"
+                android:padding="10dp"/>
+
+            <RadioButton
+                android:id="@+id/rb_my_fankui"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_my_fankui"
+                android:button="@null"
+                android:padding="10dp"/>
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:text="账户"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="115dp"
+            android:gravity="center"
+            android:text="通话"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:gravity="center"
+            android:text="反馈"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="110dp"
+            android:gravity="center"
+            android:text="资费"
+            android:textSize="15sp"/>
+
+    </RelativeLayout>
+
+
+    <!--四个按钮下方的tab选择器布局-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <!--账户tab-->
+        <ImageView
+            android:id="@+id/iv_tab_zhanghu"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/ic_help_tab"/>
+        <!--四个按钮下方的黑色线条-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignBottom="@+id/iv_tab_zhanghu"
+            android:background="@color/darkgray"/>
+
+        <!--通话tab-->
+        <ImageView
+            android:id="@+id/iv_tab_tonghua"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="115dp"
+            android:background="@drawable/ic_help_tab"
+            android:visibility="invisible"
+            />
+
+        <!--资费tab-->
+        <ImageView
+            android:id="@+id/iv_tab_zifei"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="110dp"
+            android:layout_marginRight="110dp"
+            android:background="@drawable/ic_help_tab"
+            android:visibility="invisible"
+            />
+
+        <!--反馈tab-->
+        <ImageView
+            android:id="@+id/iv_tab_fankui"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="110dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/ic_help_tab"
+            android:visibility="invisible"
+            />
+    </RelativeLayout>
+</LinearLayout>

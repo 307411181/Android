@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">祥聊</string>
+    <string name="regist_agree">已阅读</string>
+    <string name="regist_agreement">用户服务条款</string>
+    <string name="regist_secret">私密条款</string>
+    <string name="reg_exp_error_phone">手机号码格式错误，请重新输入</string>
+    <string name="tab_contact">通讯录</string>
+    <string name="tab_found">发现</string>
+    <string name="tab_me">我</string>
+    <string name="content_service_list">服务人员列表</string>
+    <string name="title_picture_choose">图片上传</string>
+    <string name="title_dialog_alert">提示</string>
+    <string name="search_add_contact_hint">搜索联系人</string>
+    <string name="title_choice_start_province">省</string>
+    <string name="title_choice_start_city">市</string>
+    <string name="title_choice_start_county">地县</string>
+    <string name="content_cancel">取消</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_release_label">释放立即刷新</string>
+    <string name="pull_to_refresh_refreshing_label">加载中…</string>
+    <string name="pull_to_refresh_from_bottom_pull_label">上拉更多</string>
+    <string name="pull_to_refresh_from_bottom_release_label">释放加载更多</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+    <string name="kuaihua_item">通讯录好友</string>
+
+    <string name="content_specification">规格：</string>
+    <string name="content_market_price">现价：</string>
+    <string name="opinion_feedback">请提出您的宝贵意见和建议,我们将酌情对部分用户给予详聊卷奖励,请留下有效联系方式。详聊的成长离不开您的支持与帮助</string>
+
+</resources>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/background"
+              android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp">
+
+
+        <TextView
+            android:maxLength="13"
+            android:id="@+id/keyboard_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@null"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:padding="20dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:id="@+id/imageview_call_delete"
+            android:layout_width="35dp"
+            android:layout_height="23dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/ic_phone_delete"
+            android:padding="10dp"/>
+
+    </RelativeLayout>
+
+    <!--第一排按钮  start-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/keyboard_one"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/ic_phone1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/keyboard_two"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_phone2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/keyboard_three"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_phone3"/>
+        </LinearLayout>
+    </LinearLayout>
+    <!--第一排按钮  end-->
+
+
+    <!--第二排按钮布局 start-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/keyboard_four"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="25dp"
+                android:layout_height="45dp"
+                android:background="@drawable/ic_phone4"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/keyboard_five"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_phone5"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/keyboard_six"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_phone6"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--第二排按钮布局 end-->
+
+
+    <!--第三排按钮 start-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/keyboard_seven"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_phone7"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/keyboard_eight"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_phone8"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/keyboard_ninght"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="42dp"
+                android:background="@drawable/ic_phone9"/>
+        </LinearLayout>
+    </LinearLayout>
+    <!--第三排按钮 end-->
+
+
+    <!--第四排按钮 start-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/keyboard_asterisk"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/ic_phone_xing"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/keyboard_zero"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="35dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/ic_phone0"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/keyboard_pound"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="23dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/ic_phone_jing"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--第四排按钮 end-->
+
+    <ImageButton
+        android:id="@+id/imageview_call"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_tile_blue_selector_update"
+        android:src="@drawable/ic_btn_phone"
+        android:text="呼叫"
+        android:textColor="@color/md_white_color_code"
+        android:textSize="20sp"/>
+
+</LinearLayout>

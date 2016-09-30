@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/linearLayout_first_keyboard"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/keyboard_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text=""
+        android:textColor="#666666"
+        android:textSize="25sp"/>
+
+    <LinearLayout
+        android:id="@+id/keyboard_oneline_one"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:showDividers="middle">
+
+        <LinearLayout
+            android:id="@+id/keyboard_one"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="@drawable/bg_keyboard"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="1"
+                android:textColor="#666666"
+                android:textSize="25sp"/>
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:text="∞"-->
+            <!--android:textColor="#999999"-->
+            <!--android:textSize="15sp" />-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/keyboard_two"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="16dp"
+            android:background="@drawable/bg_keyboard"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="2"
+                android:textColor="#666666"
+                android:textSize="25sp"/>
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:text="ABC"-->
+            <!--android:textColor="#999999"-->
+            <!--android:textSize="15sp" />-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/keyboard_three"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="@drawable/bg_keyboard"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="3"
+                android:textColor="#666666"
+                android:textSize="25sp"/>
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:text="DEF"-->
+            <!--android:textColor="#999999"-->
+            <!--android:textSize="15sp" />-->
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/keyboard_oneline_two"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:showDividers="middle">
+
+        <LinearLayout
+            android:id="@+id/keyboard_four"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="@drawable/bg_keyboard"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="4"
+                android:textColor="#666666"
+                android:textSize="25sp"/>
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:text="GHI"-->
+            <!--android:textColor="#999999"-->
+            <!--android:textSize="15sp" />-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/keyboard_five"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="16dp"
+            android:background="@drawable/bg_keyboard"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="5"
+                android:textColor="#666666"
+                android:textSize="25sp"/>
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:text="JKL"-->
+            <!--android:textColor="#999999"-->
+            <!--android:textSize="15sp" />-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/keyboard_six"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="@drawable/bg_keyboard"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="6"
+                android:textColor="#666666"
+                android:textSize="25sp"/>
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:text="MNO"-->
+            <!--android:textColor="#999999"-->
+            <!--android:textSize="15sp" />-->
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/keyboard_oneline_three"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:showDividers="middle">
+
+        <LinearLayout
+            android:id="@+id/keyboard_seven"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="@drawable/bg_keyboard"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="7"
+                android:textColor="#666666"
+                android:textSize="25sp"/>
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:text="PQRS"-->
+            <!--android:textColor="#999999"-->
+            <!--android:textSize="15sp" />-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/keyboard_eight"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="16dp"
+            android:background="@drawable/bg_keyboard"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="8"
+                android:textColor="#666666"
+                android:textSize="25sp"/>
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:text="TUV"-->
+            <!--android:textColor="#999999"-->
+            <!--android:textSize="15sp" />-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/keyboard_ninght"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="@drawable/bg_keyboard"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="9"
+                android:textColor="#666666"
+                android:textSize="25sp"/>
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:text="WXYZ"-->
+            <!--android:textColor="#999999"-->
+            <!--android:textSize="15sp" />-->
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/keyboard_oneline_four"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:showDividers="middle">
+
+        <LinearLayout
+            android:id="@+id/keyboard_asterisk"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="@drawable/bg_keyboard"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="*"
+                android:textColor="#666666"
+                android:textSize="25sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/keyboard_zero"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="16dp"
+            android:background="@drawable/bg_keyboard"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="0"
+                android:textColor="#666666"
+                android:textSize="25sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/keyboard_pound"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="@drawable/bg_keyboard"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="#"
+                android:textColor="#666666"
+                android:textSize="25sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:id="@+id/imageview_call"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_dial"/>
+
+        <ImageView
+            android:id="@+id/imageview_call_delete"
+            android:layout_width="45dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="60dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_delete"/>
+    </RelativeLayout>
+
+</LinearLayout>

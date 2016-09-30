@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\anim\\cmbkb_push_bottom_in.xml",
+        "source": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\exploded-aar\\XiangLiao.lib\\pingpp\\unspecified\\res\\anim\\cmbkb_push_bottom_in.xml"
+    },
+    {
+        "merged": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\anim\\dialog_enter.xml",
+        "source": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\res\\anim\\dialog_enter.xml"
+    },
+    {
+        "merged": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\anim\\cmbkb_push_bottom_in.xml",
+        "source": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\exploded-aar\\XiangLiao.lib\\pingpp\\unspecified\\res\\anim\\cmbkb_push_bottom_in.xml"
+    },
+    {
+        "merged": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\anim\\dialog_exit.xml",
+        "source": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\res\\anim\\dialog_exit.xml"
+    },
+    {
+        "merged": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\anim\\cmbkb_push_bottom_out.xml",
+        "source": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\exploded-aar\\XiangLiao.lib\\pingpp\\unspecified\\res\\anim\\cmbkb_push_bottom_out.xml"
+    },
+    {
+        "merged": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\anim\\dialog_exit.xml",
+        "source": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\res\\anim\\dialog_exit.xml"
+    },
+    {
+        "merged": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\anim\\dialog_enter.xml",
+        "source": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\res\\anim\\dialog_enter.xml"
+    },
+    {
+        "merged": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\anim\\cmbkb_push_bottom_in.xml",
+        "source": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\exploded-aar\\XiangLiao.lib\\pingpp\\unspecified\\res\\anim\\cmbkb_push_bottom_in.xml"
+    },
+    {
+        "merged": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\anim\\dialog_exit.xml",
+        "source": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\res\\anim\\dialog_exit.xml"
+    },
+    {
+        "merged": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\anim\\cmbkb_push_bottom_out.xml",
+        "source": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\exploded-aar\\XiangLiao.lib\\pingpp\\unspecified\\res\\anim\\cmbkb_push_bottom_out.xml"
+    },
+    {
+        "merged": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\anim\\dialog_enter.xml",
+        "source": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\res\\anim\\dialog_enter.xml"
+    },
+    {
+        "merged": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\anim\\cmbkb_push_bottom_out.xml",
+        "source": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\exploded-aar\\XiangLiao.lib\\pingpp\\unspecified\\res\\anim\\cmbkb_push_bottom_out.xml"
+    }
+]

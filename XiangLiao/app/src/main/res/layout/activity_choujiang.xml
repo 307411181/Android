@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e62d2d"
+    >
+    <RelativeLayout
+        android:id="@+id/linearLayout_logn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@color/title" >
+
+        <ImageView
+            android:layout_width="@dimen/title_height"
+            android:layout_height="@dimen/title_height"
+            android:id="@+id/imageView_return"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_back"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/title_height"
+            android:gravity="center"
+            android:text="幸运大转盘"
+            android:textColor="@color/md_white_color_code"
+            android:textSize="@dimen/textsize_eighteen"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView"/>
+    </RelativeLayout>
+   <WebView
+
+       android:layout_below="@+id/linearLayout_logn"
+       android:id="@+id/webView_choujing"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"></WebView>
+
+</RelativeLayout>

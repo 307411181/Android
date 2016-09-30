@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/slidingmenu_offset"
+        android:gravity="center"
+        android:text="@string/title_dialog_alert"
+        android:textColor="@color/md_green_400_color_code"
+        android:textSize="@dimen/textsize_twenty_six"        
+    	android:padding="10dp"  />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/md_green_400_color_code"/>
+
+    <TextView
+        android:id="@+id/textView_alert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="15dp"
+        android:text="这个是警告框！！"
+        android:gravity="center"
+        android:textColor="@color/md_grey_800_color_code"
+        android:textSize="@dimen/textsize_eighteen" 
+        android:layout_margin="10dp"  />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/md_grey_400_color_code" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="取消"
+            android:textColor="@color/md_grey_700_color_code"
+            android:textSize="@dimen/textsize_eighteen"
+            android:background="@drawable/btn_cancel_sure_selector" />
+
+        <TextView
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/md_grey_400_color_code" />
+
+        <Button
+            android:id="@+id/button_sure"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="确定"
+            android:textColor="@color/md_grey_700_color_code"
+            android:textSize="@dimen/textsize_eighteen" 
+            android:background="@drawable/btn_cancel_sure_selector" />
+    </LinearLayout>
+
+</LinearLayout>

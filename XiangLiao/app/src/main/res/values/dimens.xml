@@ -1,0 +1,57 @@
+<resources>
+    
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    
+    
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+	<dimen name="title_height">48dp</dimen>
+    <dimen name="sixty_height">60dp</dimen>
+    <dimen name="padding_height">10dp</dimen>
+    <dimen name="fifty_height">50dp</dimen>
+    <dimen name="Half_height">0.5dp</dimen>forty-nine
+    <dimen name="forty_nine_height">49dp</dimen>
+    <dimen name="textsize_eleven">9sp</dimen>
+    <dimen name="textsize_twelve">10sp</dimen>
+    <dimen name="textsize_thirteen">11sp</dimen>
+    <dimen name="textsize_fourteen">12sp</dimen>
+    <dimen name="textsize_fifteen">13sp</dimen>
+    <dimen name="textsize_sixteen">14sp</dimen>
+    <dimen name="textsize_seventeen">15sp</dimen>    
+    <dimen name="textsize_eighteen">16sp</dimen>
+    <dimen name="textsize_nineteen">17sp</dimen>
+    <dimen name="textsize_twenty">18sp</dimen>
+    <dimen name="textsize_twent">20sp</dimen>
+    <dimen name="textsize_twenty_one">21sp</dimen>
+    <dimen name="textsize_twenty_two">22sp</dimen>
+    <dimen name="textsize_twenty_five">23sp</dimen>
+    <dimen name="textsize_twenty_four">24sp</dimen>
+    <dimen name="textsize_twenty_six">25sp</dimen>
+    <dimen name="textsize_thirty">30sp</dimen>
+    <dimen name="textsize_forty">40sp</dimen>
+    <dimen name="textsize_fifty">50sp</dimen>
+    <dimen name="textsize_sixty">60sp</dimen>
+
+     <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <dimen name="height_top_bar">46dp</dimen>
+    <dimen name="padding_search_bar">5dp</dimen>
+    <dimen name="height_row_weixin">59dp</dimen>
+    <dimen name="size_avatar">48dp</dimen>
+    <dimen name="margin_chat_activity">5dp</dimen>
+    <dimen name="field_textsize">14sp</dimen>
+    <dimen name="field_margin_right">5dp</dimen>
+    <dimen name="call_button_padding_vertical">10dp</dimen>
+    <dimen name="call_button_padding_left">25dp</dimen>
+    <dimen name="call_button_padding_right">25dp</dimen>
+    <dimen name="sidebar_text_size">10dp</dimen>
+
+    <dimen name="image_thumbnail_size">100dp</dimen>
+    <dimen name="image_thumbnail_spacing">1dp</dimen>
+    <dimen name="chat_nick_margin_left">17dp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+</resources>

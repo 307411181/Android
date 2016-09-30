@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="5dp"
+              tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:paddingLeft="10dp">
+        <!--左边小电话图标-->
+        <ImageView
+            android:id="@+id/imageview_outgoing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_outgoing_calls"/>
+        <!--姓名Textview-->
+        <TextView
+            android:id="@+id/textView_name"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/imageview_outgoing"
+            android:gravity="center_vertical"
+            android:text="姓名"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize_sixteen"/>
+
+        <!--Item右侧小时钟图标-->
+
+        <ImageView
+            android:id="@+id/imageview_time_icon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/ic_zuijintonghua_time"/>
+
+        <!--电话号码-->
+
+        <TextView
+            android:id="@+id/textView_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_name"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/imageview_outgoing"
+            android:text="13888888888"
+            android:textColor="@color/gray"
+            android:textSize="14sp"/>
+
+        <!--月份-->
+        <TextView
+            android:id="@+id/textview_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@+id/textView_number"
+            android:gravity="right"
+            android:text="10月20日"
+            android:textColor="@color/gray"
+            android:textSize="14sp"/>
+
+        <!--上下午时间-->
+
+        <TextView
+            android:id="@+id/textview_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_name"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/textview_date"
+            android:text="下午15:37"
+            android:textColor="@color/gray"
+            android:textSize="14sp"
+            android:visibility="gone"
+            />
+
+
+        <!--Item中多选按钮    跟小时钟图标是重叠的-->
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bg_image_selector"
+            android:button="@null"
+            android:visibility="gone"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,242 @@
+[
+    {
+        "merged": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_nocard.png",
+        "source": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_nocard.png"
+    },
+    {
+        "merged": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_baidupay.png",
+        "source": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_baidupay.png"
+    },
+    {
+        "merged": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cmbkb_btn_keyboard_key.xml",
+        "source": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\exploded-aar\\XiangLiao.lib\\pingpp\\unspecified\\res\\drawable\\cmbkb_btn_keyboard_key.xml"
+    },
+    {
+        "merged": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_alipay.png",
+        "source": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_alipay.png"
+    },
+    {
+        "merged": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_common_pay_button_green.xml",
+        "source": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_common_pay_button_green.xml"
+    },
+    {
+        "merged": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_nocard.png",
+        "source": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_nocard.png"
+    },
+    {
+        "merged": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_wepay.png",
+        "source": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_wepay.png"
+    },
+    {
+        "merged": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\tips_bg.9.png",
+        "source": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\tips_bg.9.png"
+    },
+    {
+        "merged": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_common_pay_button_green.xml",
+        "source": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_common_pay_button_green.xml"
+    },
+    {
+        "merged": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_wechat.png",
+        "source": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_wechat.png"
+    },
+    {
+        "merged": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_alipay.png",
+        "source": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_alipay.png"
+    },
+    {
+        "merged": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_channel_item_selector.xml",
+        "source": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_channel_item_selector.xml"
+    },
+    {
+        "merged": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_unionpay.png",
+        "source": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_unionpay.png"
+    },
+    {
+        "merged": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_jingdongpay.png",
+        "source": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_jingdongpay.png"
+    },
+    {
+        "merged": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_common_pay_button_blue.xml",
+        "source": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_common_pay_button_blue.xml"
+    },
+    {
+        "merged": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_failed.png",
+        "source": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_failed.png"
+    },
+    {
+        "merged": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_done.png",
+        "source": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_done.png"
+    },
+    {
+        "merged": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_wechat.png",
+        "source": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_wechat.png"
+    },
+    {
+        "merged": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_success.png",
+        "source": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_success.png"
+    },
+    {
+        "merged": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_progressbar.xml",
+        "source": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_progressbar.xml"
+    },
+    {
+        "merged": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_common_pay_button_blue.xml",
+        "source": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_common_pay_button_blue.xml"
+    },
+    {
+        "merged": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_done.png",
+        "source": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_done.png"
+    },
+    {
+        "merged": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_baidupay.png",
+        "source": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_baidupay.png"
+    },
+    {
+        "merged": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_common_pay_button_blue.xml",
+        "source": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_common_pay_button_blue.xml"
+    },
+    {
+        "merged": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_unipay.png",
+        "source": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_unipay.png"
+    },
+    {
+        "merged": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_alipay.png",
+        "source": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_alipay.png"
+    },
+    {
+        "merged": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_failed.png",
+        "source": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_failed.png"
+    },
+    {
+        "merged": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_done.png",
+        "source": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_done.png"
+    },
+    {
+        "merged": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_jingdongpay.png",
+        "source": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_jingdongpay.png"
+    },
+    {
+        "merged": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\tips_bg.9.png",
+        "source": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\tips_bg.9.png"
+    },
+    {
+        "merged": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_common_pay_channel_btton.xml",
+        "source": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_common_pay_channel_btton.xml"
+    },
+    {
+        "merged": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_common_pay_channel_btton.xml",
+        "source": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_common_pay_channel_btton.xml"
+    },
+    {
+        "merged": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_wechat.png",
+        "source": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_wechat.png"
+    },
+    {
+        "merged": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_progressbar.xml",
+        "source": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_progressbar.xml"
+    },
+    {
+        "merged": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_baidu.png",
+        "source": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_baidu.png"
+    },
+    {
+        "merged": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_common_pay_channel_btton.xml",
+        "source": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_common_pay_channel_btton.xml"
+    },
+    {
+        "merged": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_baidu.png",
+        "source": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_baidu.png"
+    },
+    {
+        "merged": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_unipay.png",
+        "source": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_unipay.png"
+    },
+    {
+        "merged": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_progressbar.xml",
+        "source": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_progressbar.xml"
+    },
+    {
+        "merged": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_wepay.png",
+        "source": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_wepay.png"
+    },
+    {
+        "merged": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_channel_item_selector.xml",
+        "source": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_channel_item_selector.xml"
+    },
+    {
+        "merged": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_shopping.png",
+        "source": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_shopping.png"
+    },
+    {
+        "merged": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_common_pay_button_green.xml",
+        "source": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_common_pay_button_green.xml"
+    },
+    {
+        "merged": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_success.png",
+        "source": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_success.png"
+    },
+    {
+        "merged": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_unionpay.png",
+        "source": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_unionpay.png"
+    },
+    {
+        "merged": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_shopping.png",
+        "source": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_shopping.png"
+    },
+    {
+        "merged": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_unipay.png",
+        "source": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_unipay.png"
+    },
+    {
+        "merged": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_shopping.png",
+        "source": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_shopping.png"
+    },
+    {
+        "merged": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_nocard.png",
+        "source": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_nocard.png"
+    },
+    {
+        "merged": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_success.png",
+        "source": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_success.png"
+    },
+    {
+        "merged": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_wepay.png",
+        "source": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_wepay.png"
+    },
+    {
+        "merged": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cmbkb_btn_keyboard_key.xml",
+        "source": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\exploded-aar\\XiangLiao.lib\\pingpp\\unspecified\\res\\drawable\\cmbkb_btn_keyboard_key.xml"
+    },
+    {
+        "merged": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_baidu.png",
+        "source": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_baidu.png"
+    },
+    {
+        "merged": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_failed.png",
+        "source": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_failed.png"
+    },
+    {
+        "merged": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_jingdongpay.png",
+        "source": "D:\\lll\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_jingdongpay.png"
+    },
+    {
+        "merged": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\tips_bg.9.png",
+        "source": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\tips_bg.9.png"
+    },
+    {
+        "merged": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_channel_item_selector.xml",
+        "source": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_channel_item_selector.xml"
+    },
+    {
+        "merged": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_baidupay.png",
+        "source": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_baidupay.png"
+    },
+    {
+        "merged": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pingpp_unionpay.png",
+        "source": "E:\\Users\\Administrator\\StudioProjects\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\bundles\\debug\\res\\drawable\\pingpp_unionpay.png"
+    },
+    {
+        "merged": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cmbkb_btn_keyboard_key.xml",
+        "source": "E:\\studio_workspace\\XiangLiao\\lib\\pingpp_one\\build\\intermediates\\exploded-aar\\XiangLiao.lib\\pingpp\\unspecified\\res\\drawable\\cmbkb_btn_keyboard_key.xml"
+    }
+]

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_agreement"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/btn_blue_selector">
+
+        <ImageView
+            android:id="@+id/imageView_return"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/textView_mall_title"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="商城"
+            android:textColor="@color/md_white_color_code"
+            android:textSize="@dimen/textsize_twenty_two" />
+    </RelativeLayout>
+     <WebView
+         android:id="@+id/webView_mall"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+
+     </WebView>
+
+
+
+
+
+
+
+</LinearLayout>

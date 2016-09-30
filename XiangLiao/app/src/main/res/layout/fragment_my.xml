@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/linearLayout_logn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/btn_blue_selector">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:text="我的祥聊"
+            android:textColor="@color/md_white_color_code"
+            android:textSize="@dimen/textsize_twenty_two" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView_my"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                android:background="@drawable/btn_blue_selector">
+
+                <ImageView
+                    android:id="@+id/imageView_fragment_myphoto"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/ic_avatar" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/imageView_fragment_myphoto"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView_fagmentmy_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="18200891456"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/textsize_twent" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="余额："
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/textsize_sixteen" />
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="¥ "
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/textsize_sixteen" />
+
+                        <TextView
+                            android:id="@+id/textView_fagmentmy_pay"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="25"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/textsize_sixteen" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:text="积分："
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/textsize_sixteen" />
+
+                        <TextView
+                            android:id="@+id/textView_fagmentmy_score"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="25"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/textsize_sixteen" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="到期时间："
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/textsize_seventeen" />
+
+                        <TextView
+                            android:id="@+id/textView_myendtime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2015"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/textsize_seventeen" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_common"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/linearLayout_fragment_query"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView_fragmentmy_query"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/ic_phone_bill_query" />
+
+                    <TextView
+                        android:id="@+id/textView_fragmentmy_query"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_toEndOf="@+id/imageView_fragmentmy_query"
+                        android:layout_toRightOf="@+id/imageView_fragmentmy_query"
+                        android:text="话单查询"
+                        android:textColor="@color/text_color_dark_gray"
+                        android:textSize="@dimen/textsize_seventeen" />
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/ic_go" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/md_grey_300_color_code" />
+
+                <RelativeLayout
+                    android:id="@+id/linearLayout_fragment_pay"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView_fragmentmy_pay"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/ic_recharge" />
+
+                    <TextView
+                        android:id="@+id/textView_fragmentmy_pay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_toEndOf="@+id/imageView_fragmentmy_pay"
+                        android:layout_toRightOf="@+id/imageView_fragmentmy_pay"
+                        android:text="话费充值"
+                        android:textColor="@color/text_color_dark_gray"
+                        android:textSize="@dimen/textsize_seventeen" />
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/imageView_fragmentmy_pay"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/ic_go" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/md_grey_300_color_code" />
+
+                <RelativeLayout
+                    android:id="@+id/linearLayout_fragment_recommend"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView_fragmentmy_recommend"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/ic_share" />
+
+                    <TextView
+                        android:id="@+id/textView_fragmentmy_recommend"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_toEndOf="@+id/imageView_fragmentmy_recommend"
+                        android:layout_toRightOf="@+id/imageView_fragmentmy_recommend"
+                        android:text="推荐好友"
+                        android:textColor="@color/text_color_dark_gray"
+                        android:textSize="@dimen/textsize_seventeen" />
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/ic_go" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/md_grey_300_color_code" />
+
+                <RelativeLayout
+                    android:id="@+id/linearLayout_fragment_explain"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView_fragmentmy_explain"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/ic_charge_description" />
+
+                    <TextView
+                        android:id="@+id/textView_fragmentmy_explain"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginStart="24dp"
+
+                        android:layout_toEndOf="@+id/imageView_fragmentmy_explain"
+                        android:layout_toRightOf="@+id/imageView_fragmentmy_explain"
+                        android:text="产品说明"
+                        android:textColor="@color/text_color_dark_gray"
+                        android:textSize="@dimen/textsize_seventeen" />
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/ic_go" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/md_grey_300_color_code" />
+
+                <RelativeLayout
+                    android:id="@+id/linearLayout_fragment_problem"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView_fragmentmy_help"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/ic_common_problem" />
+
+                    <TextView
+                        android:id="@+id/textView_fragmentmy_help"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginStart="24dp"
+
+                        android:layout_toEndOf="@+id/imageView_fragmentmy_help"
+                        android:layout_toRightOf="@+id/imageView_fragmentmy_help"
+                        android:text="常见问题"
+                        android:textColor="@color/text_color_dark_gray"
+                        android:textSize="@dimen/textsize_seventeen" />
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/ic_go" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_common"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/linearLayout_fragment_store"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView_fragmentmy_store"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/ic_exchange_mall" />
+
+                    <TextView
+                        android:id="@+id/textView_fragmentmy_store"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_toRightOf="@+id/imageView_fragmentmy_store"
+                        android:text="袖品展示"
+                        android:textColor="@color/text_color_dark_gray"
+                        android:textSize="@dimen/textsize_seventeen" />
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/ic_go" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/md_grey_300_color_code" />
+
+                <RelativeLayout
+                    android:id="@+id/linearLayout_fragment_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView_fragmentmy_message"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/ic_system_messages" />
+
+                    <TextView
+                        android:id="@+id/textView_fragmentmy_message"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_toRightOf="@+id/imageView_fragmentmy_message"
+                        android:text="系统消息"
+                        android:textColor="@color/text_color_dark_gray"
+                        android:textSize="@dimen/textsize_seventeen" />
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/ic_go" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/bg_common"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/linearLayout_fragment_opinion"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView_fragmentmy_opinion"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/ic_feedback" />
+
+                    <TextView
+                        android:id="@+id/textView_fragmentmy_opinion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_toRightOf="@+id/imageView_fragmentmy_opinion"
+                        android:text="意见反馈"
+
+                        android:textColor="@color/text_color_dark_gray"
+                        android:textSize="@dimen/textsize_seventeen" />
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/ic_go" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/md_grey_300_color_code" />
+
+                <RelativeLayout
+                    android:id="@+id/linearLayout_fragment_upgrade"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView_fragmentmy_upgrade"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/ic_software_upgrade" />
+
+                    <TextView
+                        android:id="@+id/textView_fragmentmy_upgrade"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginStart="26dp"
+                        android:layout_toRightOf="@+id/imageView_fragmentmy_upgrade"
+                        android:text="软件升级"
+                        android:textColor="@color/text_color_dark_gray"
+                        android:textSize="@dimen/textsize_seventeen" />
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/ic_go" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/md_grey_300_color_code" />
+
+                <RelativeLayout
+                    android:id="@+id/linearLayout_fragment_is_on"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView_fragmentmy_yes_on"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/ic_auto_answer"
+                        android:padding="2dp" />
+
+                    <TextView
+                        android:id="@+id/textView_fragmentmy_yes_on"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginStart="26dp"
+                        android:layout_toRightOf="@+id/imageView_fragmentmy_yes_on"
+                        android:text="自动接听"
+                        android:textColor="@color/text_color_dark_gray"
+                        android:textSize="@dimen/textsize_seventeen" />
+                    <!--<ImageView-->
+                    <!--android:layout_width="16dp"-->
+                    <!--android:layout_height="16dp"-->
+                    <!--android:background="@drawable/ic_go"-->
+                    <!--/>-->
+                    <com.unihiltop.xiangliao.view.WiperSwitch
+                        android:id="@+id/wiperSwitch_voice"
+                        android:layout_width="64dp"
+                        android:layout_height="28dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button_exit"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/btn_bighullow_selector"
+                android:text="退出登录"
+                android:textColor="@color/deepskyblue"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

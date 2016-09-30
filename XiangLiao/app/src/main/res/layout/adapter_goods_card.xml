@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/background"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_store_monthcard"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@drawable/bg_common_car"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp">
+        <ImageView
+            android:id="@+id/imageView_store_monthe"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:layout_toRightOf="@+id/imageView_store_monthe"
+            >
+            <TextView
+                android:id="@+id/textView_store_text2"
+                android:layout_toRightOf="@+id/imageView_store_monthe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="快话月卡"
+                android:textColor="@color/text_color_dark_gray"
+
+                android:textSize="@dimen/textsize_twenty_two"
+                />
+            <LinearLayout
+                android:id="@+id/linearLayout_monthcard"
+                android:layout_toRightOf="@+id/imageView_store_monthe"
+                android:layout_below="@+id/textView_store_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="余量："
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="5dp"/>
+                <TextView
+                    android:id="@+id/textView_store_monthnumber"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:textColor="@color/numberr"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="5dp"/>
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="份"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="5dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            android:id="@+id/button_store_month"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_hullow_selector"
+            android:textColor="@color/deepskyblue"
+            android:textSize="@dimen/textsize_eighteen"
+            android:text="立即兑换"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"/>
+    </RelativeLayout>
+
+</LinearLayout>

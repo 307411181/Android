@@ -1,0 +1,140 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#17B4EB"
+                tools:context="com.unihiltop.xiangliao.CallingActivity">
+
+    <ImageView
+        android:id="@+id/imageView_calling_myphoto"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/ic_avatar"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView_calling_myphoto"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_phone_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:text="邱先生"
+            android:textColor="@color/white"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/textview_phone_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView_phone_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="13518203754"
+            android:textColor="#FEFFFF"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_Prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="回拨中,注意接听来电,勿挂断"
+            android:textColor="#FEFFFF"
+            android:textSize="@dimen/textsize_twenty_five"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_wait"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="等待接听..."
+            android:textColor="#FEFFFF"
+            android:textSize="@dimen/textsize_twenty_five"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Chronometer
+            android:id="@+id/chronometer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_twenty_five"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button_wait"
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="@dimen/fifty_height"
+        android:layout_marginRight="@dimen/fifty_height"
+        android:background="@drawable/btn_call"
+        android:text="返回等待接听"
+        android:textColor="#FEFFFF"
+        android:textSize="23dp"/>
+
+    <Button
+        android:id="@+id/botton_cancel"
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="@dimen/fifty_height"
+        android:layout_marginRight="@dimen/fifty_height"
+        android:background="@drawable/btn_call"
+        android:text="取消"
+        android:textColor="#FEFFFF"
+        android:textSize="23dp"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/botton_down"
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="@dimen/fifty_height"
+        android:layout_marginRight="@dimen/fifty_height"
+        android:background="@drawable/btn_call"
+        android:text="请手动挂断"
+        android:textColor="#FEFFFF"
+        android:textSize="23dp"
+        android:visibility="gone"/>
+
+</RelativeLayout>

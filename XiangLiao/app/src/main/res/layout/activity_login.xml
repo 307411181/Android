@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/background">
+
+    <RelativeLayout
+        android:id="@+id/linearLayout_logn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:text="登录"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize_twenty_two"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/gray"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout_logn"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/bg_common"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/editText_phone"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/iv_phone"
+            android:background="@color/transparentwhite"
+            android:hint="手机号"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:textColor="@color/md_grey_800_color_code"
+            android:textColorHint="@color/hintcolor"
+            android:textCursorDrawable="@null"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/dividing_line_dark_color"/>
+
+        <EditText
+            android:id="@+id/editText_recommend"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/transparentwhite"
+            android:hint="（选填）首次登录输入业务员手机号"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:textColor="@color/md_grey_800_color_code"
+            android:textColorHint="@color/hintcolor"
+            android:textCursorDrawable="@null"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            >
+
+            <Button
+                android:id="@+id/button_captcha"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="1dp"
+                android:background="@color/md_grey_50_color_code"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="获取验证码"
+                android:textColor="@color/text_color_gray"
+                android:textSize="@dimen/textsize_eighteen"/>
+
+            <TextView
+                android:id="@+id/textView_line"
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@id/button_captcha"
+                android:background="@color/dividing_line_dark_color"/>
+
+            <EditText
+                android:id="@+id/editText_captcha"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@id/textView_line"
+                android:background="@color/transparentwhite"
+                android:ems="10"
+                android:hint="验证码"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLength="4"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="@color/md_grey_800_color_code"
+                android:textColorHint="@color/hintcolor"
+                android:textCursorDrawable="@null"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_agree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout_phone"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center">
+
+        <CheckBox
+            android:id="@+id/checkbox_register_agreement"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/checkbox_selector"
+            android:button="@null"
+            android:checked="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/regist_agree"
+            android:textColor="@color/text_color_dark_gray"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView_register_agreement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/regist_agreement"
+            android:textColor="@color/textagree"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_regist"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/linearLayout_agree"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/bg_tile_blue_selector"
+        android:text="登录"
+        android:textColor="@color/md_white_color_code"
+        android:textSize="20sp"/>
+</RelativeLayout>

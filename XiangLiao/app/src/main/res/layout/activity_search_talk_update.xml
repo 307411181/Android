@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/background"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/imageView_return"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:padding="11dp"
+            android:src="@drawable/ic_back"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="话单查询"
+            android:textColor="@color/black"
+            android:textSize="22sp"/>
+
+        <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0.5dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:background="@color/gray"/>-->
+    </RelativeLayout>
+
+    <!--放置 开始时间和结束时间 的父布局   -->
+    <LinearLayout
+        android:id="@+id/linearLayout_startTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout_logn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical">
+        <!--开始时间的布局 start-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <!--开始时间前面的 图片-->
+            <ImageView
+                android:id="@+id/iv_startTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/ic_huafeichaxun_normal"/>
+            <!--开始时间 与 图片之间的线条-->
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/md_grey_300_color_code"/>
+
+            <TextView
+                android:id="@+id/textView_startTime"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/transparentwhite"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="开始时间"
+                android:textColor="@color/md_grey_500_color_code"
+                android:textCursorDrawable="@null"
+                android:textSize="16sp"/>
+        </LinearLayout>
+        <!--开始时间  end-->
+
+
+        <!--分割线-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/md_grey_300_color_code"/>
+        <!--结束时间布局 start-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <!--结束时间 前面图片-->
+            <ImageView
+                android:id="@+id/iv_endTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/ic_huafeichaxun_normal"/>
+            <!--中间竖立的线条-->
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/md_grey_300_color_code"/>
+            <!--结束时间-->
+            <TextView
+                android:id="@+id/textView_endTime"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/transparentwhite"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="结束时间"
+                android:textColor="@color/md_grey_500_color_code"
+                android:textCursorDrawable="@null"
+                android:textSize="16sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/md_grey_300_color_code"/>
+
+    <Button
+        android:id="@+id/button_search_talk"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_tile_blue_selector"
+        android:text="快速查询"
+        android:textColor="@color/md_white_color_code"
+        android:textSize="20sp"/>
+</LinearLayout>
